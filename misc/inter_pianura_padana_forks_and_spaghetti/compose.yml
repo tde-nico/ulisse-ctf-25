@@ -1,0 +1,5 @@
+services:
+  tor-node:
+    build: tor_http/
+    ports:
+      - "5000:5000"
